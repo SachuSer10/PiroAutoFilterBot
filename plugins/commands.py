@@ -141,7 +141,7 @@ async def start(client, message):
                 file_id=file.file_id,
                 caption=f_caption,
                 protect_content=True if pre == 'filep' else False,
-                reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ ᴍᴏᴠɪᴇꜰʟɪx ⚔️', url="https://t.me/movieflix_tg") ] ] ),
+                reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ ꜱʜᴀʀᴇ ʙᴏᴛ ⚔️', url="http://t.me/share/url?url=Hey%20There%E2%9D%A4%EF%B8%8F%2C%0A%20%20%0A%20%20I%20Found%20A%20Really%20Awesome%20Bot%20%20For%20Movie/Series%20In%20Telegram%20%20%20%20%20%20%20Send%20%20%20Correct%20Spelling%20Of%20Movie/Series%20To%20This%20Bot%0A%20%20Hope%20This%20Bot%20Helps%20You%20Too%E2%9D%A4%EF%B8%8F%E2%9D%A4%EF%B8%8F%E2%9D%A4%EF%B8%8F%0A%20%20%0A%20%20Bot%20Link%20%3A-%20%40ThomasShelbyMovieBot") ] ] ),
             )
         return
     
@@ -177,7 +177,7 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
-                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ ᴍᴏᴠɪᴇꜰʟɪx ⚔️', url="https://t.me/movieflix_tg") ] ] ),
+                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ ꜱʜᴀʀᴇ ʙᴏᴛ ⚔️', url="http://t.me/share/url?url=Hey%20There%E2%9D%A4%EF%B8%8F%2C%0A%20%20%0A%20%20I%20Found%20A%20Really%20Awesome%20Bot%20%20For%20Movie/Series%20In%20Telegram%20%20%20%20%20%20%20Send%20%20%20Correct%20Spelling%20Of%20Movie/Series%20To%20This%20Bot%0A%20%20Hope%20This%20Bot%20Helps%20You%20Too%E2%9D%A4%EF%B8%8F%E2%9D%A4%EF%B8%8F%E2%9D%A4%EF%B8%8F%0A%20%20%0A%20%20Bot%20Link%20%3A-%20%40ThomasShelbyMovieBot") ] ] ),
                     
                 )
             except FloodWait as e:
@@ -188,7 +188,7 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
-                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ ᴍᴏᴠɪᴇꜰʟɪx ⚔️', url="https://t.me/movieflix_tg") ] ] ),
+                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ ꜱʜᴀʀᴇ ʙᴏᴛ ⚔️', url="http://t.me/share/url?url=Hey%20There%E2%9D%A4%EF%B8%8F%2C%0A%20%20%0A%20%20I%20Found%20A%20Really%20Awesome%20Bot%20%20For%20Movie/Series%20In%20Telegram%20%20%20%20%20%20%20Send%20%20%20Correct%20Spelling%20Of%20Movie/Series%20To%20This%20Bot%0A%20%20Hope%20This%20Bot%20Helps%20You%20Too%E2%9D%A4%EF%B8%8F%E2%9D%A4%EF%B8%8F%E2%9D%A4%EF%B8%8F%0A%20%20%0A%20%20Bot%20Link%20%3A-%20%40ThomasShelbyMovieBot") ] ] ),
                 )
             except Exception as e:
                 logger.warning(e, exc_info=True)
@@ -250,7 +250,7 @@ async def start(client, message):
                 chat_id=message.from_user.id,
                 file_id=file_id,
                 protect_content=True if pre == 'filep' else False,
-                reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ ᴍᴏᴠɪᴇꜰʟɪx ⚔️', url="https://t.me/movieflix_tg") ] ] ),
+                reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ ꜱʜᴀʀᴇ ʙᴏᴛ ⚔️', url="http://t.me/share/url?url=Hey%20There%E2%9D%A4%EF%B8%8F%2C%0A%20%20%0A%20%20I%20Found%20A%20Really%20Awesome%20Bot%20%20For%20Movie/Series%20In%20Telegram%20%20%20%20%20%20%20Send%20%20%20Correct%20Spelling%20Of%20Movie/Series%20To%20This%20Bot%0A%20%20Hope%20This%20Bot%20Helps%20You%20Too%E2%9D%A4%EF%B8%8F%E2%9D%A4%EF%B8%8F%E2%9D%A4%EF%B8%8F%0A%20%20%0A%20%20Bot%20Link%20%3A-%20%40ThomasShelbyMovieBot") ] ] ),
             )
             filetype = msg.media
             file = getattr(msg, filetype.value)
@@ -284,7 +284,7 @@ async def start(client, message):
         file_id=file_id,
         caption=f_caption,
         protect_content=True if pre == 'filep' else False,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ ᴍᴏᴠɪᴇꜰʟɪx ⚔️', url="https://t.me/movieflix_tg") ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ ꜱʜᴀʀᴇ ʙᴏᴛ ⚔️', url="http://t.me/share/url?url=Hey%20There%E2%9D%A4%EF%B8%8F%2C%0A%20%20%0A%20%20I%20Found%20A%20Really%20Awesome%20Bot%20%20For%20Movie/Series%20In%20Telegram%20%20%20%20%20%20%20Send%20%20%20Correct%20Spelling%20Of%20Movie/Series%20To%20This%20Bot%0A%20%20Hope%20This%20Bot%20Helps%20You%20Too%E2%9D%A4%EF%B8%8F%E2%9D%A4%EF%B8%8F%E2%9D%A4%EF%B8%8F%0A%20%20%0A%20%20Bot%20Link%20%3A-%20%40ThomasShelbyMovieBot") ] ] ),
     )
                     
 
