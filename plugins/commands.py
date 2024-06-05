@@ -24,7 +24,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⚡️ ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩ ⚡️', url=f"http://t.me/{temp.U_NAME}?startgroup=true")
                 ],[
-                    InlineKeyboardButton('🛡 ᴏᴡɴᴇʀ', callback_data="owner_info"),
+                    InlineKeyboardButton('‼️ ᴅᴍᴄᴀ', callback_data="owner_info"),
                     InlineKeyboardButton('⚙️ ꜱᴜᴩᴩᴏʀᴛ ɢʀᴏᴜᴩ', url=f"https://t.me/{SUPPORT_CHAT}")
                 ],[
                     InlineKeyboardButton('ℹ️ ʜᴇʟᴩ', callback_data='help'),
@@ -47,7 +47,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⚡️ ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩ ⚡️', url=f"http://t.me/{temp.U_NAME}?startgroup=true")
                 ],[
-                    InlineKeyboardButton('🛡 ᴏᴡɴᴇʀ', callback_data="owner_info"),
+                    InlineKeyboardButton('‼️ ᴅᴍᴄᴀ', callback_data="owner_info"),
                     InlineKeyboardButton('⚙️ ꜱᴜᴩᴩᴏʀᴛ ɢʀᴏᴜᴩ', url=f"https://t.me/{SUPPORT_CHAT}")
                 ],[
                     InlineKeyboardButton('ℹ️ ʜᴇʟᴩ', callback_data='help'),
@@ -95,7 +95,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⚡️ ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩ ⚡️', url=f"http://t.me/{temp.U_NAME}?startgroup=true")
                 ],[
-                    InlineKeyboardButton('🛡 ᴏᴡɴᴇʀ', callback_data="owner_info"),
+                    InlineKeyboardButton('‼️ ᴅᴍᴄᴀ', callback_data="owner_info"),
                     InlineKeyboardButton('⚙️ ꜱᴜᴩᴩᴏʀᴛ ɢʀᴏᴜᴩ', url=f"https://t.me/{SUPPORT_CHAT}")
                 ],[
                     InlineKeyboardButton('ℹ️ ʜᴇʟᴩ', callback_data='help'),
