@@ -138,12 +138,17 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /delallg - <code>Tᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ Gғɪʟᴛᴇʀs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>
 • /deletefiles - <code>Tᴏ ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD Fɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>"""
 
-    STATUS_TXT = """<b>ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ: <code>{}</code>
+    STATUS_TXT = """<b>ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ ꜰʀᴏᴍ ʙᴏᴛʜ ᴅʙ'ꜱ: <code>{}</code>
+    ᴅʙ 1
 ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀꜱ: <code>{}</code>
 ᴛᴏᴛᴀʟ ᴄʜᴀᴛꜱ: <code>{}</code>
-ᴜꜱᴇᴅ ꜱᴛᴏʀᴀɢᴇ: <code>{}</code></b>"""
-
-
+ᴜꜱᴇᴅ ꜱᴛᴏʀᴀɢᴇ: <code>{}</code>
+ꜰʀᴇᴇ ꜱᴛᴏʀᴀɢᴇ : <code>{}</code>
+    ᴅʙ 2
+ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀꜱ: <code>{}</code>
+ᴛᴏᴛᴀʟ ᴄʜᴀᴛꜱ: <code>{}</code>
+ᴜꜱᴇᴅ ꜱᴛᴏʀᴀɢᴇ: <code>{}</code>
+ꜰʀᴇᴇ ꜱᴛᴏʀᴀɢᴇ : <code>{}</code></b>"""
 
     LOG_TEXT_G = """#NewGroup
 𝖦𝗋𝗈𝗎𝗉 = {}(<code>{}</code>)
